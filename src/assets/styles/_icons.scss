@@ -7,12 +7,14 @@
       height: 7rem;
       i {
         font-size: 4.5rem;
+        color: $primary;
       }
     }
     &:hover {
       .features-icons-icon {
         i {
           font-size: 5rem;
+          color: $secondary;
         }
       }
     }

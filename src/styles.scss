@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./assets/styles/variables";
-@import "./assets/styles/mixins";
+@import "./assets/styles/variables.scss";
+@import "./assets/styles/mixins.scss";
 
-@import "./assets/styles/global";
+@import "./assets/styles/global.scss";
 
-@import "./assets/styles/masthead";
-@import "./assets/styles/showcase";
-@import "./assets/styles/icons";
-@import "./assets/styles/testimonials";
-@import "./assets/styles/call-to-action";
-@import "./assets/styles/footer";
+@import "./assets/styles/masthead.scss";
+@import "./assets/styles/showcase.scss";
+@import "./assets/styles/icons.scss";
+@import "./assets/styles/testimonials.scss";
+@import "./assets/styles/call-to-action.scss";
+@import "./assets/styles/footer.scss";

@@ -3,7 +3,12 @@
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
-      <div class="col-xl-9 mx-auto mb-5">
+      <div class="col-xl-3 mx-auto" *ngIf="page.showImage">
+        <img [src]="page.imageSrc" alt="Fotine HalikasKopriva" class="img-fluid"><br>
+        <small>Fotine HalikasKopriva - CEO</small><br>
+        <small>Co-Founder and Owner</small>
+      </div>
+      <div class="col-xl-9 mx-auto my-auto">
         <h1>{{ page.leadText }}</h1>
         <h3>{{ page.subText }}</h3>
       </div>

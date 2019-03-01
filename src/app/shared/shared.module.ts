@@ -11,6 +11,7 @@ import { CallToActionComponent } from "./components/call-to-action/call-to-actio
 import { IconComponent } from "./components/icons/icons.component"
 import { ShowcaseComponent } from "./components/showcase/showcase.component"
 import { FooterComponent } from "./components/footer/footer.component"
+import { NavbarComponent } from "./components/navbar/navbar.component"
 
 import { SeoService } from "./services/seo.service"
 
@@ -21,7 +22,8 @@ import { SeoService } from "./services/seo.service"
     TestimonyComponent,
     IconComponent,
     ShowcaseComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [CommonModule, RouterModule, FormsModule],
   exports: [
@@ -34,7 +36,8 @@ import { SeoService } from "./services/seo.service"
     TestimonyComponent,
     IconComponent,
     ShowcaseComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   providers: [
     SeoService

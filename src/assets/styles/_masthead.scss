@@ -5,6 +5,7 @@ header.masthead {
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  
   .overlay {
     position: absolute;
     background-color: $gray-900;
